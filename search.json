@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "badge.html",
+    "href": "badge.html",
+    "title": "badge",
+    "section": "",
+    "text": "source\n\nBadge\n\n Badge (exports:list=None, imports:list=None, caption=False)\n\nGenerate a markdown badge in the ibis style\nTo generate a markdown badge, pass an argument to exports, imports or both.\n\nbadge = Badge(exports=[\"PyArrow\", \"Parquet\", \"CSV\", \"Pandas\"])\nbadge\n\n\n\n\n\nBadge(imports=[\"PyArrow\", \"Parquet\", \"CSV\", \"Pandas\"])\n\n\n\n\n\nmulti_badge = Badge(exports=[\"PyArrow\", \"Parquet\", \"CSV\", \"Pandas\"], \n              imports=[\"PyArrow\", \"Parquet\", \"CSV\", \"Pandas\"])\nmulti_badge"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ibis_badge",
+    "section": "",
+    "text": "pip install ibis_badge"
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "ibis_badge",
+    "section": "",
+    "text": "pip install ibis_badge"
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "ibis_badge",
+    "section": "Usage",
+    "text": "Usage\n\nfrom ibis_badge import Badge\n\n\nBadge(exports=[\"PyArrow\", \"Parquet\", \"CSV\", \"Pandas\"])\n\n\n\n\n\nBadge(exports=[\"PyArrow\", \"Parquet\", \"CSV\", \"Pandas\"], \n      imports=[\"PyArrow\", \"Parquet\", \"CSV\", \"Pandas\"])"
+  }
+]
