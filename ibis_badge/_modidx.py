@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://hamelsmu.github.io',
                 'git_url': 'https://github.com/hamelsmu/ibis_badge',
                 'lib_path': 'ibis_badge'},
-  'syms': {'ibis_badge.core': {'ibis_badge.core.foo': ('core.html#foo', 'ibis_badge/core.py')}}}
+  'syms': { 'ibis_badge.badge': { 'ibis_badge.badge.Badge': ('badge.html#badge', 'ibis_badge/badge.py'),
+                                  'ibis_badge.badge.Badge.__init__': ('badge.html#badge.__init__', 'ibis_badge/badge.py'),
+                                  'ibis_badge.badge.Badge.__repr__': ('badge.html#badge.__repr__', 'ibis_badge/badge.py'),
+                                  'ibis_badge.badge.Badge._repr_markdown_': ('badge.html#badge._repr_markdown_', 'ibis_badge/badge.py')}}}
