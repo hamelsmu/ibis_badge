@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "ibis_badge"
+  site-url: "https://hamelsmu.github.io/ibis_badge"
+  description: "Create markdown badges for use in ibis"
+  repo-branch: main
+  repo-url: "https://github.com/hamelsmu/ibis_badge"
